@@ -2,9 +2,12 @@
 <manifest>
 
  <!-- Trees -->
-  <project path="device/realme/RMX1831" name="Jamesgosling2004/android_device_RMX1831.git" remote="github" revision="lineage-18.1" />
-  <project path="vendor/realme/RMX1831" name="Jamesgosling2004/vendor_realme_RMX1831.git" remote="github" revision="r11" />
-  <project path="vendor/ANXCamera" name="Jamesgosling2004/vendor-ANXCamera.git" remote="github" revision="11" />
-  <project path="packages/apps/RealmeParts" name="Jamesgosling2004/Parts.git" remote="github" revision="lineage-18.1" />
+   <project path="device/realme/RMX1821" name="Jamesgosling2004/android_device_realme_RMX1821.git" remote="github" revision="lineage-18.1-rmui" />
+   <project path="vendor/realme/RMX1821" name="Jamesgosling2004/android_vendor_realme_RMX1821.git" remote="github" revision="lineage-18.1-rmui" />
+   <project path="kernel/realme/RMX1821" name="Jamesgosling2004/kernel_realme_RMX1821.git" remote="github" revision="Q" />
+   <project path="build/make" name="Maanush2004/android_device_realme_RMX1821/patches/build/make.git" remote="github" revision="lineage-17.1-rmui" /> 
+   <project path="vendor/mediatek/ims" name="PixelExperience/vendor_mediatek_ims" remote="github" revision="eleven" />
+   <project path="vendor/mediatek/interfaces" name="PixelExperience/vendor_mediatek_interfaces" remote="github" revision="eleven" />
+   <project path="packages/apps/RealmeParts" name="Jamesgosling2004/Parts.git" remote="github" revision="lineage-18.1" />
  
 </manifest>
