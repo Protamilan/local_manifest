@@ -6,5 +6,6 @@
    <project path="vendor/realme/RMX1831" name="Jamesgosling2004/vendor_realme_RMX1831.git" remote="github" revision="r11" />
    <project path="vendor/ANXCamera" name="Jamesgosling2004/vendor-ANXCamera.git" remote="github" revision="11" />
    <project path="packages/apps/RealmeParts" name="Jamesgosling2004/Parts.git" remote="github" revision="lineage-18.1" />
- 
+   <project path="packages/apps/RealmeDirac" name="Jamesgosling2004/android_packages_apps_RealmeDirac.git" remote="github" revision="master" />
+
 </manifest>
