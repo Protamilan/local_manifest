@@ -3,7 +3,6 @@
 
 	<remote name="Jamesgosling2004"
 		fetch="https://github.com/Jamesgosling2004" />
-
  <!-- Trees -->
    <project path="device/realme/RMX1831" name="device_realme_RMX1831" remote="Jamesgosling2004" revision="r11" clone-depth="1" />
    <project path="vendor/realme/RMX1831" name="vendor_realme_RMX1831" remote="Jamesgosling2004" revision="R-1" clone-depth="1" />
