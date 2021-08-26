@@ -5,7 +5,6 @@
 	 fetch="https://github.com/Jamesgosling2004" />
  <!-- Trees -->
    <project path="device/realme/RMX1831" name="android_device_RMX1831" remote="Jamesgosling2004" revision="AOSP" clone-depth="1" />
-   <remove-project name="device/generic/opengl-transport" />
    <project path="vendor/realme/RMX1831" name="vendor_realme_RMX1831" remote="Jamesgosling2004" revision="R-1" clone-depth="1" />
    <project path="vendor/ANXCamera" name="vendor-ANXCamera" remote="Jamesgosling2004" revision="11" clone-depth="1" />
    <project path="packages/apps/RealmeParts" name="Parts" remote="Jamesgosling2004" revision="lineage-18.1" clone-depth="1" />
