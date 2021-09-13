@@ -9,5 +9,5 @@
    <project path="vendor/realme/RMX1831" name="vendor_realme_RMX1831" remote="Jamesgosling2004" revision="r11" clone-depth="1" />
    <project path="vendor/ANXCamera" name="vendor-ANXCamera" remote="Jamesgosling2004" revision="11" clone-depth="1" />
    <project path="packages/apps/RealmeParts" name="Parts" remote="Jamesgosling2004" revision="lineage-18.1" clone-depth="1" />
-	
+   <project path="Cherish/out/target/product/RMX1831/lib" name"vendor_realme_RMX1831/blob/R-1/proprietary/vendor/lib/libDiracAPI_SHARED.so" remote="Jamesgosling2004" revision="R-1" clone-depth="1" /> 	
 </manifest>
