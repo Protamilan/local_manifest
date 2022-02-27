@@ -4,27 +4,10 @@
   <remote name="Jamesgosling2004"
 	 fetch="https://github.com/Jamesgosling2004" />
 
-  <remote  name="windowzytch"
-            fetch="https://github.com/windowzytch/"
-            revision="reborn" />
-
  <!-- Trees -->
-   <project path="device/realme/RMX1831" name="android_device_RMX1831" remote="Jamesgosling2004" revision="AOSP" clone-depth="1" />
-   <project path="vendor/realme/RMX1831" name="vendor_realme_RMX1831" remote="Jamesgosling2004" revision="R-1" clone-depth="1" />
+   <project path="device/realme/RMX1831" name="device_RMX1831" remote="Jamesgosling2004" revision="eleven" clone-depth="1" />
+   <project path="vendor/realme/RMX1831" name="vendor_realme_RMX1831" remote="Jamesgosling2004" revision="r11" clone-depth="1" />
    <project path="vendor/ANXCamera" name="vendor-ANXCamera" remote="Jamesgosling2004" revision="11" clone-depth="1" />
    <project path="packages/apps/RealmeParts" name="Parts" remote="Jamesgosling2004" revision="lineage-18.1" clone-depth="1" />
 
-<!-- PATCHES
-   #####################################################-->
-   <remove-project name="platform_build" />
-   <project name="platform_build" path="build/make" remote="windowzytch">
-     <copyfile src="core/root.mk" dest="Makefile" />
-     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-     <linkfile src="core" dest="build/core" />
-     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-     <linkfile src="target" dest="build/target" />
-     <linkfile src="tools" dest="build/tools" />
-   </project>
-  
-</manifest>
+
